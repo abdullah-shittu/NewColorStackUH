@@ -1,0 +1,19 @@
+---
+const { logoSrc, logoAlt, links } = Astro.props;
+---
+<nav class="bg-blue-800 text-white px-6 py-4 flex items-center justify-between">
+  <!-- Logo -->
+  <div class="flex items-center">
+    <img src={logoSrc} alt={logoAlt} class="h-10 w-10 mr-3" />
+    <span class="font-bold text-xl">ColorStack@UH</span>
+  </div>
+
+  <!-- Navigation Links -->
+  <ul class="flex space-x-6">
+    {links.map(link => (
+      <li>
+        <a href={link.href} class="hover:text-yellow-400">{link.label}</a>
+      </li>
+    ))}
+  </ul>
+</nav>
