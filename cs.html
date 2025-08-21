@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorStack @ University of Houston</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Applying Inter font to the body */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Main Container -->
+    <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-900 via-gray-900 to-red-900 p-4 sm:p-6 lg:p-8">
+
+        <!-- Content Card -->
+        <div class="w-full max-w-2xl bg-gray-800/50 backdrop-blur-xl rounded-2xl shadow-2xl overflow-hidden border border-gray-700">
+            <div class="p-8 sm:p-12">
+                
+                <!-- Header with Logo -->
+                <header class="flex items-center gap-4 mb-8">
+                    <img src="favicon.ico" alt="ColorStack@UH Logo" class="h-12 w-12 rounded-full" onerror="this.onerror=null;this.src='https://placehold.co/48x48/1F2937/FFFFFF?text=CS';">
+                    <div>
+                        <h1 class="text-2xl sm:text-3xl font-bold text-white">ColorStack @ UH</h1>
+                        <p class="text-sm text-red-400 font-medium">University of Houston Chapter</p>
+                    </div>
+                </header>
+
+                <!-- Mission Statement -->
+                <section class="mb-8">
+                    <h2 class="text-xl sm:text-2xl font-semibold text-white mb-4">Our Mission</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        To build a supportive and empowering space for Black and Latinx students in tech to connect, grow, and access career-building opportunities like internships, mentorship, and workshops.
+                    </p>
+                </section>
+
+                <!-- Call to Action: Join Us -->
+                <section class="bg-gray-900/60 rounded-xl p-6 flex flex-col sm:flex-row items-center gap-6 border border-gray-700">
+                    <div class="flex-shrink-0">
+                        <!-- Placeholder for the QR Code -->
+                        
+                    </div>
+                    <div class="text-center sm:text-left">
+                        <h3 class="text-lg font-bold text-white">Interested in joining?</h3>
+                        <p class="text-gray-400 mt-1">Click join now to get started and become a member!</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfugLej6F8im__YicyWd49ZD5EYSFOv7l0DNgSJHdD269j-ZA/viewform" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition-colors">
+                            Join Now
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Social Media Footer -->
+                <footer class="mt-10 text-center">
+                    <p class="text-gray-400 mb-4">Follow us to stay updated on events & opportunities!</p>
+                    <div class="flex justify-center items-center space-x-6">
+                        <!-- Replace '#' with your actual social media links -->
+                        <a href="#" class="text-gray-500 hover:text-white transition-colors duration-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c-4.05.05-6.915.39-8.835 1.14C1.56 3.86.86 5.2.33 7.17.135 7.95 0 9.87 0 12s.135 4.05.33 4.83c.53 1.97 1.23 3.31 3.15 4.02 1.92.75 4.785 1.09 8.835 1.14 4.05-.05 6.915-.39 8.835-1.14 1.92-.71 2.62-2.05 3.15-4.02.195-.78.33-2.73.33-4.83s-.135-4.05-.33-4.83c-.53-1.97-1.23-3.31-3.15-4.02C19.23 2.39 16.365 2.05 12.315 2zM4.88 4.31A4.88 4.88 0 018 3.12h8a4.88 4.88 0 013.12 1.19c1.665.99 2.145 2.22 2.565 3.86.195.78.315 2.61.315 4.64s-.12 3.86-.315 4.64c-.42 1.64-.9 2.87-2.565 3.86A4.88 4.88 0 0116 20.88H8a4.88 4.88 0 01-3.12-1.19c-1.665-.99-2.145-2.22-2.565-3.86-.195-.78-.315-2.61-.315-4.64s.12-3.86.315-4.64c.42-1.64.9-2.87 2.565-3.86zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm4-8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-white transition-colors duration-300">
+                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.06 2.06a.93.93 0 00-.93-.93H4.87a.93.93 0 00-.93.93v15.86c0 .51.42.93.93.93h15.19c.51 0 .93-.42.93-.93V2.06zM8.13 18.06h-2.5V9.3h2.5v8.76zM6.88 8.13a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zM18.06 18.06h-2.5v-4.37c0-1.04-.02-2.38-1.45-2.38-1.45 0-1.67 1.13-1.67 2.3v4.45h-2.5V9.3h2.4v1.1h.03c.34-.64 1.16-1.32 2.37-1.32 2.53 0 3 1.67 3 3.84v4.44z"/></svg>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+        <p class="text-center text-gray-500 text-xs mt-6">
+            &copy; 2024 ColorStack @ University of Houston. All rights reserved.
+        </p>
+    </div>
+
+</body>
+</html>
